@@ -1,0 +1,9 @@
+server:
+  port: 8081
+# rabbitmq配置
+spring:
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: admin
+    password: admin
+    virtual-host: testhost
